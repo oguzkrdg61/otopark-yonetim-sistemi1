@@ -1,0 +1,36 @@
+#elemanlar th{
+    font-size: 20px;
+}
+#elemanlar{
+    background-color: white;
+    border:1px solid black;
+}
+#elemanlar tr:hover{
+    background-color:rgb(209, 203, 203);
+}
+#elemanlar th, td {
+    border: 1px solid black;
+    text-align: center;
+    width: 180px;
+    height: 40px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 70%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+body{
+    background-color: #2ecc71;
+}
+table, th, td {
+  border:1px solid black;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
